@@ -10,7 +10,7 @@ const Sidebar = () => {
     await onSent(prompt)
   }
   return (
-    <div className="sidebar">
+    <div className="sidebar translate">
       <div className="top">
         <img onClick={()=>setExtended((prev)=>(!prev))} className="menu" src={assets.menu_icon} alt="menu-icon" />
         <div onClick={()=>newChat()} className="new-chat ">
